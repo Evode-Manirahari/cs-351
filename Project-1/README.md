@@ -13,7 +13,7 @@ This project looks at four different C++ programs that all do the same thing - t
 - **alloca.cpp** - uses stack allocation with recursion to keep the stack frames alive
 - **list.cpp** - uses std::list and std::vector, the most "C++ way" of doing it
 - **malloc.cpp** - uses C-style malloc() with placement new
-- **new.cpp** - uses operator new with a manual linked list (classic CS student approach)
+- **new.cpp** - uses operator new with a manual linked list, the traditional way we have been taught to do it
 
 I ran a bunch of trials with different settings and compared their performance.
 
